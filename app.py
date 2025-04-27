@@ -1,5 +1,8 @@
 import streamlit as st
 from transformers import pipeline
+from huggingface_hub import login
+
+login(token="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")
 
 generator = pipeline("text-generation", model="thainq107/Llama-3.2-1B-Instruct-dpo", device="cpu")
 
