@@ -1,6 +1,7 @@
 import streamlit as st
-from transformers import pipeline
+from transformers import LlamaTokenizer, LlamaForCausalLM
 from huggingface_hub import login
+from peft import PeftModel
 
 login(token="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")
 
