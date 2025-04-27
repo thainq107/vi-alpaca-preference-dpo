@@ -1,0 +1,13 @@
+# Core libraries
+torch
+transformers
+peft
+trl
+bitsandbytes
+accelerate
+
+# Data processing
+datasets
+
+# Deployment
+streamlit
